@@ -9,7 +9,7 @@ function contaVocali(stringa) {
   let conteggio = 0;
 
   for (let i = 0; i < stringa.length; i++) {
-    if (vocali.includes(stringa[i])) {
+    if (vocali.includes(stringa[i].toLowerCase())) {
       conteggio++;
     }
   }
